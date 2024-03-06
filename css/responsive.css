@@ -1,3 +1,37 @@
+
+@media screen and (max-width: 1160px) {
+    .site-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lessons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .steps{
+        display: flex;
+        justify-content: center;
+    }
+
+    .why-us{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+   
+    
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .site-header {
         display: flex;
@@ -23,6 +57,29 @@
 
    
     
+}
+
+@media screen and (max-width: 480px ) {
+    .site-header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lessons .col{
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+    .steps .col{
+        width: 90%;
+        margin-bottom: 90px;
+    }
 }
 
 
