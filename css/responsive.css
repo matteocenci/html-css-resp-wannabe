@@ -9,6 +9,16 @@
         justify-content: center;
     }
 
+    .steps{
+        display: flex;
+        justify-content: center;
+    }
+
+    .why-us{
+        display: flex;
+        justify-content: center;
+    }
+
     
 
    
